@@ -195,27 +195,146 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "force" : [
-                                            0,
-                                            0.9820934534072876,
-                                            -0.9820934534072876
-                                          ],
                                           "target" : [
-
-                                          ]
+                                            "2EF7209D-4E3B-43AD-B55E-83B9A8716ADA"
+                                          ],
+                                          "userIdentifier" : "showInterface"
                                         },
                                         "name" : {
-                                          "type" : "physics"
+                                          "type" : "custom"
                                         }
                                       },
-                                      "identifier" : "DEEE8D33-EFDB-45D8-97DF-EAF089EE685A",
+                                      "identifier" : "0CBC3F8A-1B76-4EF6-AD3F-8B23055A1620",
                                       "isEnabled" : true
                                     }
                                   ],
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "2A085693-D6D1-4130-A143-DB4991B7AE66",
+                              "identifier" : "7A5B704E-3E1C-48C0-832E-BCDBC1F614D2",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildOutAnimationType" : "none",
+                                          "distance" : 1,
+                                          "duration" : 0,
+                                          "fadeOut" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "1070BCDC-3A28-4DA6-9F1A-8AD07873ABCD"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "hide"
+                                        }
+                                      },
+                                      "identifier" : "92EBB7BC-A1E1-45CE-8715-187E7B130D22",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "0FFD8314-5072-4EB3-AEC2-7AF1E78F8AA2",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.30980393290519714,
+                        0.56470590829849243,
+                        0.99215686321258545,
+                        1
+                      ],
+                      "identifier" : "74F01820-7841-484F-B8EE-E621480E7878",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Start Scene -> showInterface",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+
+                                },
+                                "name" : "start"
+                              },
+                              "identifier" : "1058B300-D1EC-4670-8A00-3658DA700A9A",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildInAnimationType" : "none",
+                                          "distance" : 1,
+                                          "duration" : 1,
+                                          "fadeIn" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "1070BCDC-3A28-4DA6-9F1A-8AD07873ABCD"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "show"
+                                        }
+                                      },
+                                      "identifier" : "37EF93D6-C5DE-4C72-B1E4-D1DA007E6E88",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "45DA40F2-6A7D-46EE-A483-05A3DA2D8568",
                               "isEnabled" : true
                             }
                           ],
@@ -228,24 +347,22 @@
                         0.94901961088180542,
                         1
                       ],
-                      "identifier" : "85B227A5-E0DF-4C48-A098-CB1E54A12D4B",
+                      "identifier" : "08BAC50B-0DC6-465C-9CBA-CC8AADFAA73C",
                       "isEnabled" : true,
                       "isLooping" : false,
                       "isModal" : false,
-                      "name" : "banana",
+                      "name" : "Custom -> Drop Cans",
                       "triggers" : [
                         {
                           "__content" : [
                             {
                               "configurationBox" : {
                                 "configuration" : {
-                                  "target" : [
-
-                                  ]
+                                  "userIdentifier" : "dropCans"
                                 },
-                                "name" : "tapTarget"
+                                "name" : "custom"
                               },
-                              "identifier" : "7DF2DA63-9037-4FEB-BAA6-8762D65BA109",
+                              "identifier" : "9701AF57-65A1-484C-BEA5-A7A5991D9072",
                               "isEnabled" : true
                             }
                           ],
@@ -425,6 +542,8 @@
                   },
                   "6FFDBF2A-02A4-4444-9A82-62F4BDDCE79F" : null,
                   "7F5F1ADC-E5E4-4EF5-A5B5-FC43B071FFA5" : null,
+                  "9F718529-3171-493C-9C31-6C21A5BC238B" : null,
+                  "35A3F928-AB2B-4E36-8DC4-0E168B571B73" : null,
                   "62FC411F-0C45-4F84-9397-846A70E240F6" : {
                     "overrides" : {
                       "arguments" : [
@@ -473,14 +592,26 @@
                           "rigidBody-enabled",
                           {
                             "typeName" : "Bool",
-                            "value" : false
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-material",
+                          {
+                            "typeName" : "RigidBodyMaterial",
+                            "value" : {
+                              "builtIn" : "plastic",
+                              "overrides" : {
+
+                              }
+                            }
                           }
                         ],
                         [
                           "rigidBody-motionType",
                           {
                             "typeName" : "REMotionType",
-                            "value" : "static"
+                            "value" : "dynamic"
                           }
                         ]
                       ]
@@ -500,13 +631,14 @@
                         1,
                         0,
                         0.12686440348625183,
-                        0.08753608912229538,
+                        0.43638592958450317,
                         6.7055232477741811e-08,
                         1
                       ]
                     }
                   },
                   "65D6228D-C70C-48EB-9C40-6282A9A68682" : null,
+                  "80F3CD59-ED3E-4DA7-83F4-61367173357A" : null,
                   "632E476F-1E55-4E30-9723-1C51DD2E8B89" : null,
                   "9323FA11-0FA5-4BF9-8235-B5AD7EC2707B" : {
                     "overrides" : {
@@ -681,7 +813,7 @@
                                 "height",
                                 {
                                   "typeName" : "Double",
-                                  "value" : 0.013876402008151337
+                                  "value" : 0.013876402008151333
                                 }
                               ],
                               [
@@ -770,108 +902,125 @@
                       ]
                     }
                   },
+                  "14575984-68C8-4846-8B13-04B903423E69" : null,
+                  "94290921-57FD-46AA-8687-451F5F23E7FE" : null,
+                  "A7EBB2D6-4771-4AE3-BA1B-A80EFFA69EAD" : null,
+                  "A40A5C25-8159-4B8B-B991-997C6084ACA6" : null,
+                  "AA1A596F-08E7-477C-AEC1-41B94A3F0C71" : null,
                   "AD1AF605-2E81-4E48-AE20-54BB9A216307" : null,
-                  "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null,
-                  "F08855E3-1172-4160-9E00-D4A0D13796A2" : {
+                  "B77BED60-EC32-43FA-9CA5-64C00F40398F" : {
                     "overrides" : {
-                      "arguments" : [
-                        [
-                          "bevelRadius",
-                          {
-                            "typeName" : "Double",
-                            "value" : 0.0050000000000000001
-                          }
-                        ],
-                        [
-                          "diameter",
-                          {
-                            "typeName" : "Double",
-                            "value" : 0.072553269565105438
-                          }
-                        ],
-                        [
-                          "height",
-                          {
-                            "typeName" : "Double",
-                            "value" : 0.18304428458213806
-                          }
-                        ],
-                        [
-                          "material",
-                          {
-                            "typeName" : "String",
-                            "value" : "standard"
-                          }
-                        ],
-                        [
-                          "materialColor",
-                          {
-                            "typeName" : "double4",
-                            "value" : [
-                              0.93333500623703003,
-                              0.93333500623703003,
-                              0.93333500623703003,
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:917665fc506b5ee5ab2bfadcceefbc4c\/Pringles.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "E67699F5-1958-4A86-A508-01C76FFCB3AE"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              1,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              0,
+                              0,
+                              0,
+                              0,
                               1
                             ]
                           }
-                        ],
-                        [
-                          "type",
-                          {
-                            "typeName" : "String",
-                            "value" : "cylinder"
-                          }
-                        ]
-                      ],
+                        }
+                      },
                       "factory" : {
-                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
-                        "version" : "1.0"
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
                       },
                       "runtimeAttributes" : [
                         [
                           "RuntimeIdentifier",
                           {
                             "typeName" : "UUID",
-                            "value" : "8BEFB80E-1190-4670-B0DE-BB82A6B9C58E"
-                          }
-                        ],
-                        [
-                          "rigidBody-enabled",
-                          {
-                            "typeName" : "Bool",
-                            "value" : false
-                          }
-                        ],
-                        [
-                          "rigidBody-motionType",
-                          {
-                            "typeName" : "REMotionType",
-                            "value" : "static"
+                            "value" : "3ECC67AA-DA2C-4F9F-AFBB-32B52EE0059F"
                           }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        0.060000002384185791,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        0.060000002384185791,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        0.060000002384185791,
                         0,
-                        0.41469991207122803,
-                        0.091522149741649628,
-                        1.8535571655320382e-07,
+                        0.13473343849182129,
+                        0,
+                        0.0092945937067270279,
                         1
                       ]
                     }
-                  }
+                  },
+                  "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null,
+                  "C2EC4073-4173-48DD-90A4-DCC39FF3BCC7" : null,
+                  "C46757D2-E237-43CA-AB80-0A34B4CB0BA3" : null,
+                  "D0AC3A99-8C9F-4FF9-8A33-A4CD1B95E326" : null,
+                  "ECFBA081-AA98-49AA-A89B-90E4EE93D2F0" : null,
+                  "F08855E3-1172-4160-9E00-D4A0D13796A2" : null,
+                  "FA362F88-8FD4-40EC-BB19-4FE0A04057DA" : null
                 },
                 "factory" : null,
                 "runtimeAttributes" : [
@@ -888,21 +1037,21 @@
               "title" : "Box",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.99990087747573853,
-                  -4.6566128730773926e-10,
-                  0.014078311622142792,
+                  0.99999040365219116,
+                  -5.2386894822120667e-10,
+                  0.0043741567060351372,
                   0,
-                  0.00066298613091930747,
-                  0.9988904595375061,
-                  -0.047088053077459335,
+                  -0.00055413355585187674,
+                  0.99194347858428955,
+                  0.12667955458164215,
                   0,
-                  -0.014062691479921341,
-                  0.047092705965042114,
-                  0.99879145622253418,
+                  -0.0043389159254729748,
+                  -0.12668076157569885,
+                  0.99193400144577026,
                   0,
-                  -0.019510231912136078,
-                  0.085786826908588409,
-                  1.385698676109314,
+                  0.39289307594299316,
+                  0.15252678096294403,
+                  2.5644853115081787,
                   1
                 ],
                 "sceneTransform" : [

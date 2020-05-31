@@ -3,5 +3,20 @@
     "libraryIdentifier" : "4500ec05ad40a0bca5f79dfecfe75af3",
     "format" : "arObject",
     "displayName" : "Pringles.arobject"
+  },
+  {
+    "libraryIdentifier" : "297c30fe620a1c9d9ee7aeb250da2e5a",
+    "format" : "model",
+    "displayName" : "sceneeco02d74chxhabj0.usdz"
+  },
+  {
+    "libraryIdentifier" : "2397628900db301b82ead6b1b4e61355",
+    "format" : "model",
+    "displayName" : "Pringles.usdz"
+  },
+  {
+    "libraryIdentifier" : "917665fc506b5ee5ab2bfadcceefbc4c",
+    "format" : "model",
+    "displayName" : "Pringles.usdz"
   }
 ]
