@@ -12,6 +12,11 @@ import RealityKit
 class ViewController: UIViewController {
     
     @IBOutlet var arView: ARView!
+    @IBOutlet weak var textPanel: UIVisualEffectView!
+    @IBOutlet weak var headingLabel: UILabel!
+    @IBOutlet weak var bodyLabel: UILabel!
+    @IBOutlet weak var dropButton: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +27,8 @@ class ViewController: UIViewController {
         
         // Add the box anchor to the scene
         arView.scene.anchors.append(boxAnchor)
+        
+        
         
         //Custom Behaviour
         boxAnchor.actions.showInterface.onAction = handleShowInterface(_:)
@@ -36,6 +43,9 @@ class ViewController: UIViewController {
         }
          print("Scene Started")
         
+        headingLabel.isHidden = false
+        bodyLabel.isHidden = true
+        dropButton.isHidden = false
     }
     
     //MARK: - Custom Trigger
