@@ -17,7 +17,7 @@ For development, the latest version of Xcode and ARKit is required.
 
 1. Clone the repo
 ```
-git clone https://github.com/HeleneWentworth/ShootTheFruit
+git clone https://github.com/HeleneWentworth/ShootTheBallz
 ```
 2. Open the project in Xcode
 
