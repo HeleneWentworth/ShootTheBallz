@@ -31,27 +31,66 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "audioType" : "play",
-                                          "filePath" : "audio:com.apple.rc.audio.miscellaneous.happy-chime-fx-01\/Happy%20Chime%20FX.caf",
-                                          "loops" : false,
-                                          "multiplePerformType" : "ignore request",
                                           "target" : [
-
+                                            "C1118290-CCA2-49A7-8A09-B7A3B08A8FB5"
                                           ],
-                                          "volume" : 0.5
+                                          "userIdentifier" : "showInterface"
                                         },
                                         "name" : {
-                                          "type" : "audio"
+                                          "type" : "custom"
                                         }
                                       },
-                                      "identifier" : "4433DA82-16DE-4CB2-90FD-825A5F3559B0",
+                                      "identifier" : "8FF1A060-5EA6-4093-857E-E0D3A582DF4C",
                                       "isEnabled" : true
                                     }
                                   ],
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "50469AC6-11F8-4496-86F0-27DE27738C63",
+                              "identifier" : "0B018EF1-EAEF-453F-9D95-6A11DB35BF73",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildInAnimationType" : "none",
+                                          "distance" : 1,
+                                          "duration" : 1,
+                                          "fadeIn" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "63D161DC-3DDE-482F-98A1-71A03CF5924B",
+                                            "C3FDD25E-F2D3-4479-B52B-257B60669673",
+                                            "3BDA1107-BFD7-4E1F-B690-F4EB0000795E",
+                                            "C4F0DE32-6883-4B9C-AF6C-99E6EA68BC43",
+                                            "1645ECB3-CBD9-49A3-A9D4-0F0CD1408E81"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "show"
+                                        }
+                                      },
+                                      "identifier" : "1DBDFEFE-06B9-4D5E-B07F-966372E50EEB",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "5520F04A-77D8-44EF-BB4E-7091FA100426",
                               "isEnabled" : true
                             }
                           ],
@@ -64,106 +103,22 @@
                         0.69019609689712524,
                         1
                       ],
-                      "identifier" : "AE600636-2E18-400B-A08E-0F346D213116",
+                      "identifier" : "D3EAB3C6-9520-4687-9444-620C67F755B1",
                       "isEnabled" : true,
                       "isLooping" : false,
                       "isModal" : false,
-                      "name" : "Start",
+                      "name" : "Scene Start -> Show Interface",
                       "triggers" : [
                         {
                           "__content" : [
                             {
                               "configurationBox" : {
                                 "configuration" : {
-                                  "target" : [
 
-                                  ]
                                 },
-                                "name" : "tapTarget"
+                                "name" : "start"
                               },
-                              "identifier" : "E1688E0C-EE2C-480D-B44F-729BB5B33755",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        }
-                      ]
-                    }
-                  ],
-                  "__version" : 3
-                },
-                {
-                  "__content" : [
-                    {
-                      "accessibility" : {
-                        "__content" : [
-                          {
-                            "isEnabled" : false
-                          }
-                        ],
-                        "__version" : 1
-                      },
-                      "actionGroups" : [
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
-                                          "force" : [
-                                            0,
-                                            2.4056277275085449,
-                                            -1.3888895511627197
-                                          ],
-                                          "target" : [
-
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "physics"
-                                        }
-                                      },
-                                      "identifier" : "EB4CAC14-5C4E-44F2-A4A3-D07E32E8DD30",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "6A33F38E-EB51-4802-87FF-7D16423BE838",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        }
-                      ],
-                      "color" : [
-                        0.21568627655506134,
-                        0.72549021244049072,
-                        0.80000001192092896,
-                        1
-                      ],
-                      "identifier" : "3DA60928-D1C5-4D9E-944B-804DE3939A53",
-                      "isEnabled" : true,
-                      "isLooping" : false,
-                      "isModal" : false,
-                      "name" : " Peach ",
-                      "triggers" : [
-                        {
-                          "__content" : [
-                            {
-                              "configurationBox" : {
-                                "configuration" : {
-                                  "target" : [
-
-                                  ]
-                                },
-                                "name" : "tapTarget"
-                              },
-                              "identifier" : "DE8A6F7C-DFCF-4C79-9A32-E63AFBCDAD5B",
+                              "identifier" : "878EEC31-3CB5-4271-B0CA-2BA65F1110D7",
                               "isEnabled" : true
                             }
                           ],
@@ -468,7 +423,7 @@
                                       "configurationBox" : {
                                         "configuration" : {
                                           "animationStyle" : "basic",
-                                          "duration" : 1,
+                                          "duration" : 2,
                                           "emphasisAnimationType" : "pop",
                                           "iterations" : 1,
                                           "target" : [
@@ -502,7 +457,7 @@
                                       "configurationBox" : {
                                         "configuration" : {
                                           "animationStyle" : "basic",
-                                          "duration" : 1,
+                                          "duration" : 2,
                                           "emphasisAnimationType" : "pop",
                                           "iterations" : 1,
                                           "target" : [
@@ -539,7 +494,7 @@
                                           "animationStyle" : "basic",
                                           "buildInAnimationType" : "scale up",
                                           "distance" : 1,
-                                          "duration" : 3.7158973217010498,
+                                          "duration" : 3.8663914203643799,
                                           "fadeIn" : true,
                                           "linearCoefficient" : 1,
                                           "moveEase" : "easeInOut",
@@ -658,7 +613,7 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "duration" : 11
+                                          "duration" : 15
                                         },
                                         "name" : {
                                           "type" : "wait"
@@ -770,6 +725,41 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:com.apple.rc.audio.animals.goat-bleat-01\/Goat%20Bleat%2001.caf",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "63D161DC-3DDE-482F-98A1-71A03CF5924B"
+                                          ],
+                                          "volume" : 1
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "3E871AEA-57F1-4699-AE81-03FD461890B3",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "C48278C3-9B4A-4E04-A604-5452EA3B26C0",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
                                           "force" : [
                                             0,
                                             4.7683710135970614e-07,
@@ -843,6 +833,41 @@
                         "__version" : 1
                       },
                       "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:com.apple.rc.audio.animals.goat-bleat-01\/Goat%20Bleat%2001.caf",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "C3FDD25E-F2D3-4479-B52B-257B60669673"
+                                          ],
+                                          "volume" : 1
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "53D89984-98DC-44B4-804E-8F2A4CE4C9C4",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "52898AF6-A30F-49C3-BBD2-675B4DDBB84C",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
                         {
                           "__content" : [
                             {
@@ -934,6 +959,41 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:com.apple.rc.audio.animals.dog-bark-04\/Dog%20Bark%2004.caf",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "3BDA1107-BFD7-4E1F-B690-F4EB0000795E"
+                                          ],
+                                          "volume" : 1
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "35F84796-7BD1-49F5-BB81-1E4C5C0ABFEA",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "5E510956-48FC-4CC8-81DC-0CD3BF844E6A",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
                                           "force" : [
                                             0,
                                             8.9406955794402165e-07,
@@ -1007,6 +1067,41 @@
                         "__version" : 1
                       },
                       "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:com.apple.rc.audio.animals.goat-bleat-01\/Goat%20Bleat%2001.caf",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "C4F0DE32-6883-4B9C-AF6C-99E6EA68BC43"
+                                          ],
+                                          "volume" : 1
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "247B8425-76C6-40EA-8B14-2355B3C31CBA",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "B3C4A155-89A1-4C6A-9E25-ACA64E6D9311",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
                         {
                           "__content" : [
                             {
@@ -1098,6 +1193,41 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:com.apple.rc.audio.animals.goat-bleat-01\/Goat%20Bleat%2001.caf",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "1645ECB3-CBD9-49A3-A9D4-0F0CD1408E81"
+                                          ],
+                                          "volume" : 1
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "63C57CD4-91BF-4820-8A7C-801FC0ED3014",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "BC41406F-9F77-4D4E-AD21-0598B7256EAE",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
                                           "force" : [
                                             0,
                                             8.9406950110060279e-07,
@@ -1149,6 +1279,93 @@
                                 "name" : "tapTarget"
                               },
                               "identifier" : "412826BB-5BC2-42A8-83A3-66E2DF9A2E1F",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "axis" : [
+                                            0,
+                                            1,
+                                            0
+                                          ],
+                                          "direction" : "clockwise",
+                                          "duration" : 1,
+                                          "iterations" : 2,
+                                          "target" : [
+                                            "63D161DC-3DDE-482F-98A1-71A03CF5924B",
+                                            "C3FDD25E-F2D3-4479-B52B-257B60669673",
+                                            "3BDA1107-BFD7-4E1F-B690-F4EB0000795E",
+                                            "C4F0DE32-6883-4B9C-AF6C-99E6EA68BC43",
+                                            "1645ECB3-CBD9-49A3-A9D4-0F0CD1408E81"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "spin"
+                                        }
+                                      },
+                                      "identifier" : "022B9161-19BC-417F-983E-453A03F4415B",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "23CBB4D6-97F9-45DE-A4A6-FDEBA94CD8F4",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.21568627655506134,
+                        0.72549021244049072,
+                        0.80000001192092896,
+                        1
+                      ],
+                      "identifier" : "4188980B-6E8D-43C5-9EBA-321804C37294",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Custom -> Spin balls",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "userIdentifier" : "spinBalls"
+                                },
+                                "name" : "custom"
+                              },
+                              "identifier" : "D620B3B5-5092-4BBE-A80F-5744A373E176",
                               "isEnabled" : true
                             }
                           ],
@@ -1367,7 +1584,7 @@
                         0,
                         -0.43449872732162476,
                         0,
-                        1.6223607063293457,
+                        0.83095896244049072,
                         1
                       ]
                     }
@@ -1450,7 +1667,7 @@
                         0,
                         0.45079609751701355,
                         -4.0657578237032148e-20,
-                        1.6223562955856323,
+                        0.83095616102218628,
                         1
                       ]
                     }
@@ -1680,8 +1897,8 @@
                         0,
                         1,
                         0,
-                        0.0036041289567947388,
-                        1.0566126108169556,
+                        0.011401310563087463,
+                        0.63195252418518066,
                         0.30678942799568176,
                         1
                       ]
@@ -1783,17 +2000,17 @@
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        0.55265450477600098,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        0.55265450477600098,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        0.55265450477600098,
                         0,
                         0.0058348122984170914,
                         0.57850867509841919,
@@ -1883,7 +2100,7 @@
                         0,
                         0.0038359258323907852,
                         -3.7269443216840679e-20,
-                        1.6223633289337158,
+                        0.83096319437026978,
                         1
                       ]
                     }
@@ -2088,7 +2305,7 @@
                         0,
                         0.23702917993068695,
                         -1.8361330338035895e-20,
-                        1.6223585605621338,
+                        0.83095842599868774,
                         1
                       ]
                     }
@@ -2540,7 +2757,7 @@
                         0,
                         -0.21945223212242126,
                         -2.7110017395812929e-20,
-                        1.6223607063293457,
+                        0.83096057176589966,
                         1
                       ]
                     }
@@ -2695,21 +2912,21 @@
               "title" : "Box",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.99976265430450439,
-                  1.4877879550567741e-07,
-                  -0.021783970296382904,
+                  0.98831301927566528,
+                  1.5622937610260124e-07,
+                  0.15243828296661377,
                   0,
-                  -0.0088982647284865379,
-                  0.91276782751083374,
-                  -0.40838167071342468,
+                  0.022746600210666656,
+                  0.98880422115325928,
+                  -0.14747439324855804,
                   0,
-                  0.019883520901203156,
-                  0.40847891569137573,
-                  0.91255110502243042,
+                  -0.15073175728321075,
+                  0.14921863377094269,
+                  0.97724807262420654,
                   0,
-                  0.12166947871446609,
-                  1.4188954830169678,
-                  4.1027121543884277,
+                  -0.061232082545757294,
+                  0.79252630472183228,
+                  3.663923978805542,
                   1
                 ],
                 "sceneTransform" : [

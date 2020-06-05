@@ -1,4 +1,3 @@
-//
 //  ViewController.swift
 //  ShootTheFruit
 //
@@ -11,12 +10,11 @@ import RealityKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet var arView: ARView!
+    
+    @IBOutlet var arView : ARView!
     @IBOutlet weak var textPanel: UIVisualEffectView!
     @IBOutlet weak var headingLabel: UILabel!
     @IBOutlet weak var bodyLabel: UILabel!
-    @IBOutlet weak var dropButton: UIButton!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,32 +26,32 @@ class ViewController: UIViewController {
         // Add the box anchor to the scene
         arView.scene.anchors.append(boxAnchor)
         
-        
-        
         //Custom Behaviour
-        boxAnchor.actions.showInterface.onAction = handleShowInterface(_:)
+        
+        boxAnchor.actions.showInterface.onAction = handleShpwInterface(_:)
        
     }
+    //MARK: - Custom Behaviour
+    
+    func handleShpwInterface(_ entity: Entity?){
+        guard entity != nil else {
+            return
+        }
+        print("Scene Started")
+        
+        textPanel.isHidden = false
+        headingLabel.isHidden = false
+        bodyLabel.isHidden = false
+    }
+    
     
     //MARK: - Custom Behaviour
     
-    func handleShowInterface(_ entity: Entity?){
-        guard entity != nil else{
-            return
-        }
-         print("Scene Started")
-        
-        headingLabel.isHidden = false
-        bodyLabel.isHidden = true
-        dropButton.isHidden = false
-    }
-    
-    //MARK: - Custom Trigger
-    func dropCans() {
-        if let sceneAnchor = arView.scene.anchors[0] as? Experience.Box {
-           
-            sceneAnchor.notifications.dropCans.post()
+    func spinBalls(){
+       if let sceneAnchor = arView.scene.anchors[0] as? Experience.Box{
             
+         sceneAnchor.notifications.spinBalls.post()
+           
         }
     }
 }
