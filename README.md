@@ -1,4 +1,4 @@
-# ShootTheFruit
+# ShootTheBallz
 
 Fun shooting AR game.
 
