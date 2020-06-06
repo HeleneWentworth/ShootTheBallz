@@ -4,6 +4,9 @@ Fun shooting AR game.
 
 Scan A Pringles can. Shoot the balls to the 3D modeled cans and wait for the sounds, see how it goes into the net. Game Over You WIN!
 
+## How the game works:
+You scan the Pringle can, then the scene appears, the clock pops every second and it pops for 15 seconds, once the clock drop you have to be finished shooting the ballz. You tap on the ball and then it will shoot, there will be a random sound (Just for laughs) the sound doesn't mean anything it's just funny. You can tap all 5 ballz and then it will shoot the cans, Then YOU WIN!!
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
